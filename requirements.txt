@@ -1,9 +1,7 @@
 # ---------- CORE DEEP LEARNING ----------
---extra-index-url https://download.pytorch.org/whl/cu118
-# torch==2.1.2+cu118
-torch==2.9.1
-torchvision==0.16.2+cu118
-torchaudio==2.1.2+cu118
+torch==2.9.1       # CPU-only
+torchvision==0.16.2
+torchaudio==2.1.2
 pytorchvideo==0.1.5
 
 # ---------- VIDEO / FRAME PROCESSING ----------
@@ -37,10 +35,3 @@ Pillow==10.0.1
 
 # ---------- OPTIONAL DASHBOARD ----------
 streamlit==1.31.0
-
-
-
-#   pip install -r requirements.txt  
-
-
-#   pip freeze | %{pip uninstall -y $_}
